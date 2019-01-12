@@ -1,0 +1,29 @@
+
+/*清除基本样式*/
+body{margin:0;line-height:1; font-family: "微软雅黑";font-size:12px;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:12px;}
+p,dl,dd{margin:0;}
+ul,ol{list-style:none;margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+em,i{font-style:normal;}
+strong,b{font-weight: normal;}
+img{vertical-align:bottom;border:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;}
+
+/*头部*/
+.layout{position:relative;width:1000px;margin:0 auto;}
+.top{height:81px;background:#404145;}
+.top .logo{width:302px;height:81px;background:url("../images/lg1.png") no-repeat left 19px;}
+.top input{position:absolute;top:27px;left:443px;width:194px;height:34px;border-radius:10px;margin:0;border:0;padding-left:20px;
+    background:#333333 url("../images/inpput_1.png") no-repeat 187px 11px;
+    font:12px/34px "微软雅黑";color:#999999;}
+.top .tel{position:absolute;top:32px;left:687px;padding-left:22px;width:134px;height:24px;font:16px/24px "微软雅黑";color:#cccccc;
+    background:url("../images/tel_1.png") no-repeat;}
+.top .img{position:absolute;top:26px;right:0;width:137px;height:36px;}
+.top .img img{float:left;margin-right:9px;}
+
+.nav{height:42px;background:#fd6639;font:15px/42px "微软雅黑";color:#fff;text-align:center;}
+/*.nav li{float:left;padding:0 13px 0 15px;margin-right:6px;}*/
+.nav li a{float:left;padding:0 13px 0 15px;margin-right:6px;color:#fff;}
+.nav li a:hover{background:#fff;color:#ff4a00;font-weight:bold;}
